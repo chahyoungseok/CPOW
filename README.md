@@ -20,11 +20,9 @@
         <li><a href="#환경-설정">환경 설정</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#소개">소개</a>
-    </li>
+    <li><a href="#소개">소개</a></li>
     <li><a href="#관련-기술">관련 기술</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#본문-소개">본문 소개</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -71,3 +69,9 @@
  ![image](https://user-images.githubusercontent.com/29851990/174717684-ea0cf701-a1fe-4307-ba46-b658dd327ec8.png)
 
 이러한 에너지 소비 문제를 해결하기 위해 CPoW(Competition Proof  of Work)를 제시한다.
+
+
+## 본문 소개
+하나의 블록이 만들어지기 까지의 프로세스는 크게 세 개의 Round로 이루어진다. 첫Round의 채굴연산에서 첫번째로 정답을 도출한 노드는 다른 노드를 통해 검증을 받게 된다. 일반적인 PoW는 검증을 마치고 바로 체인에 블록을 올리지만,  CPoW에서는 블록을 체인에 올리지 않고 전체 노드의 일정 비율만큼의 정답자를 더 받는다. 이 비율을 SNR(Survived Node Rate)라  지정했으며, 한 프로세스 내에 다음 라운드로 넘어가는 과정에서 적용된다. 여기서 SNR은 보안성과 반비례 관계를 가진다.  1등 노드는 모든 노드들의 기준 노드가 되어 어떤노드가 먼저 문제를 풀었나 확인하는 역할을 한다. 이 과정에서 1등노드에 가까이 있는 노드가 네트워크 측면에서 유리할 수 있다. 문제를 해결한 노드들은 검증과정에서 각 노드의 선착순 배열에 들어가게 되며, 이 배열이 식(1)의 과정이 되면 해당 라운드는 종료됨과 동시에 1등노드가 채굴한 블록이 체인에 올라가게 된다. 그리고  선착순 배열에 있는 노드들을 대상으로 다음 round에서 채굴을 진행하며, 총 세 개의  Round 동안 같은 채굴과정을 반복한다. 따라서 한 프로세스 내 총 세 개의 블록이 체결된다. 리워드는 Round 3에서 블록을 체결한 노드가 가지게 된다. 
+
+![image](https://user-images.githubusercontent.com/29851990/174717948-55c19d93-76c6-4f0e-9f25-d00c5dee393c.png) ·································· (1)
