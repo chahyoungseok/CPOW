@@ -31,3 +31,7 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
+
+## 프로젝트 소개
+ > 블록체인은 미래의 4차산업혁명을 이끌 기술로 평가된다. 대표적인 합의 알고리즘인 PoW는 탈중앙화와 보안성면에서 장점을 보이지만 에너지 소비량이 많다는 단점이 있다. 따라서 채굴 과정을 단계별로 나누어 채굴 참여자 수를 제한하는 CPoW(Competition Proof Of Work)를 제안한다. 
+
