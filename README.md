@@ -65,7 +65,7 @@
 작업증명 알고리즘의 필요성은 네트워크의 모든 노드가 동시에 블록을 만들 수 없게 하는 것이다. 작업증명에 통과해야만 블록을 생성할 수 있고, 이 과정에서는 엄청난 에너지가 소모된다. 
 
 
- ![image](https://user-images.githubusercontent.com/29851990/174717684-ea0cf701-a1fe-4307-ba46-b658dd327ec8.png)
+![image](https://user-images.githubusercontent.com/29851990/174718467-e9d7c7f9-fff6-4f92-8034-c529734273b6.png)·································· (1)
 
 
 이러한 에너지 소비 문제를 해결하기 위해 CPoW(Competition Proof  of Work)를 제시한다.
