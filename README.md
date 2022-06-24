@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/github/issues/hongjin4790/SYE-project">
 <img src="https://img.shields.io/badge/tag-v1.0.0-blue">
 <img src="https://img.shields.io/badge/Flask-2C2255?style=flat-square&logo=Flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ngrok-F8DC75?style=flat-square&logo=Ngrok&logoColor=black"/>
 <img src="https://img.shields.io/badge/BlockChain-121D33?style=flat-square&logo=Bitcoin-SV&logoColor=white"/>
 <br>
 </p>
