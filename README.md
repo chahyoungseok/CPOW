@@ -24,7 +24,7 @@
     <li><a href="#본문-소개">본문 소개</a></li>
     <li><a href="#성능-분석">성능 분석</a></li>
     <li><a href="#결론">결론</a></li>
-    <li><a href="http://sigin.or.kr/sub03/sub0304.php?category=2&view=detail&no=207">SWCC-2022 논문제출  [효율적 에너지 소비를 위한 구분화된 경잭적 합의 ]</a></li>
+    <li><a href="http://sigin.or.kr/sub03/sub0304.php?category=2&view=detail&no=207">SWCC-2022 논문제출 링크 [효율적 에너지 소비를 위한 구분화된 경잭적 합의 ]</a></li>
     <li><a href="https://www.youtube.com/watch?v=EDSXQ_lxfdk">Youtube Link</a></li>
   </ol>
 </details>
